@@ -1,0 +1,20 @@
+﻿@model List<Department>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+<h2> Department Section list</h2>
+<a asp-action="Create" class="btn btn-dark">Create new Department</a>
+
+@if (Model.Count() > 0){
+<table class="table table-hover table-stdiped">
+    <thead>
+        <td>
+            <td> Name</td>
+            <td> Code</td>
+            <td> Created Date</td>
+        </td>
+    </thead>
+</table>
+}

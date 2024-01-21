@@ -1,0 +1,63 @@
+<<<<<<< HEAD
+using CodeAcademyDAL.Context;
+using CodeAcademyDAL.Model;
+using Microsoft.AspNetCore.Identity;
+=======
+using CodeAcademyBLL.Interfaces;
+using CodeAcademyBLL.Repsatory;
+using CodeAcademyDAL.Context;
+>>>>>>> 2cec68abd8d6a0ddab75894e94016e51f52cf2f9
+using Microsoft.EntityFrameworkCore;
+
+namespace CodeAcademy
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var builder = WebApplication.CreateBuilder(args);
+
+            // Add services to the container.
+            builder.Services.AddControllersWithViews();
+
+            builder.Services.AddDbContext<ApplicationDbContext>(
+<<<<<<< HEAD
+         options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+             .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            builder.Services.AddAuthentication();
+=======
+          options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            builder.Services.AddScoped<IDepartment, DepartmentRebosatory>();
+            builder.Services.AddScoped<IEmployee, EmployeeRebosatory>();
+>>>>>>> 2cec68abd8d6a0ddab75894e94016e51f52cf2f9
+
+            var app = builder.Build();
+
+            // Configure the HTTP request pipeline.
+            if (!app.Environment.IsDevelopment())
+            {
+                app.UseExceptionHandler("/Home/Error");
+                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+                app.UseHsts();
+            }
+
+            app.UseHttpsRedirection();
+            app.UseStaticFiles();
+
+            app.UseRouting();
+
+            app.UseAuthorization();
+
+            app.MapControllerRoute(
+                name: "default",
+                pattern: "{controller=Home}/{action=Index}/{id?}");
+
+            app.Run();
+        }
+    }
+}
