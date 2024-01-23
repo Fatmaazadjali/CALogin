@@ -1,12 +1,12 @@
-<<<<<<< HEAD
+
 using CodeAcademyDAL.Context;
 using CodeAcademyDAL.Model;
 using Microsoft.AspNetCore.Identity;
-=======
+
 using CodeAcademyBLL.Interfaces;
 using CodeAcademyBLL.Repsatory;
 using CodeAcademyDAL.Context;
->>>>>>> 2cec68abd8d6a0ddab75894e94016e51f52cf2f9
+
 using Microsoft.EntityFrameworkCore;
 
 namespace CodeAcademy
@@ -21,7 +21,7 @@ namespace CodeAcademy
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddDbContext<ApplicationDbContext>(
-<<<<<<< HEAD
+
          options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
@@ -29,12 +29,12 @@ namespace CodeAcademy
              .AddEntityFrameworkStores<ApplicationDbContext>();
 
             builder.Services.AddAuthentication();
-=======
+
           options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddScoped<IDepartment, DepartmentRebosatory>();
-            builder.Services.AddScoped<IEmployee, EmployeeRebosatory>();
->>>>>>> 2cec68abd8d6a0ddab75894e94016e51f52cf2f9
+            //builder.Services.AddScoped<IEmployee, EmployeeRebosatory>();
+
 
             var app = builder.Build();
 

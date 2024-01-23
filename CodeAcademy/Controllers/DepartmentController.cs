@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 ﻿
-=======
+
 ﻿using CodeAcademyBLL.Interfaces;
 using CodeAcademyDAL.Model;
->>>>>>> 2cec68abd8d6a0ddab75894e94016e51f52cf2f9
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace CodeAcademy.Controllers

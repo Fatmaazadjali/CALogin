@@ -31,3 +31,19 @@ C:\Users\Training\Source\Repos\CodeAcProject\CodeAcademyBLL\obj\Debug\net6.0\ref
 C:\Users\Training\Source\Repos\CodeAcProject\CodeAcademyBLL\obj\Debug\net6.0\CodeAcademyBLL.pdb
 C:\Users\Training\Source\Repos\CodeAcProject\CodeAcademyBLL\obj\Debug\net6.0\ref\CodeAcademyBLL.dll
 >>>>>>> 2cec68abd8d6a0ddab75894e94016e51f52cf2f9
+C:\Users\admin\Source\Repos\CALogin\CodeAcademyBLL\obj\Debug\net6.0\CodeAcademyBLL.csproj.AssemblyReference.cache
+C:\Users\admin\Source\Repos\CALogin\CodeAcademyBLL\obj\Debug\net6.0\CodeAcademyBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Source\Repos\CALogin\CodeAcademyBLL\obj\Debug\net6.0\CodeAcademyBLL.AssemblyInfoInputs.cache
+C:\Users\admin\Source\Repos\CALogin\CodeAcademyBLL\obj\Debug\net6.0\CodeAcademyBLL.AssemblyInfo.cs
+C:\Users\admin\Source\Repos\CALogin\CodeAcademyBLL\obj\Debug\net6.0\CodeAcademyBLL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Source\Repos\CALogin\CodeAcademyBLL\obj\Debug\net6.0\CodeAcademyBLL.sourcelink.json
+C:\Users\admin\Source\Repos\CALogin\CodeAcademyBLL\obj\Debug\net6.0\CodeAcademyBLL.dll
+C:\Users\admin\Source\Repos\CALogin\CodeAcademyBLL\obj\Debug\net6.0\refint\CodeAcademyBLL.dll
+C:\Users\admin\Source\Repos\CALogin\CodeAcademyBLL\obj\Debug\net6.0\CodeAcademyBLL.pdb
+C:\Users\admin\Source\Repos\CALogin\CodeAcademyBLL\bin\Debug\net6.0\CodeAcademyBLL.deps.json
+C:\Users\admin\Source\Repos\CALogin\CodeAcademyBLL\bin\Debug\net6.0\CodeAcademyBLL.dll
+C:\Users\admin\Source\Repos\CALogin\CodeAcademyBLL\bin\Debug\net6.0\CodeAcademyBLL.pdb
+C:\Users\admin\Source\Repos\CALogin\CodeAcademyBLL\bin\Debug\net6.0\CodeAcademyDAL.dll
+C:\Users\admin\Source\Repos\CALogin\CodeAcademyBLL\bin\Debug\net6.0\CodeAcademyDAL.pdb
+C:\Users\admin\Source\Repos\CALogin\CodeAcademyBLL\obj\Debug\net6.0\CodeAcademyBLL.csproj.CopyComplete
+C:\Users\admin\Source\Repos\CALogin\CodeAcademyBLL\obj\Debug\net6.0\ref\CodeAcademyBLL.dll

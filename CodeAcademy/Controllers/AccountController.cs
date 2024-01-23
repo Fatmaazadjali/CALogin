@@ -43,5 +43,26 @@ namespace CodeAcademy.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginVM model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await _usermanager.FindByEmailAsync(model.Email);
+                if (user is not null)
+                {
+                    var flag = await _usermanager.CheckPasswordAsync(user, model.Password, model.RememberMe, false);
+                    if (flag) {
+                        var result = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
+                        if (!result.Succeeded) { return RedirectToAction("Index", "Employee"); } }
+                    else
+                    {
+                        ModelState.AddModelError(string.Empty, "Password or email not correct");
+                    }
+                    }
+                }
+            return View();
+        }
     }
 }

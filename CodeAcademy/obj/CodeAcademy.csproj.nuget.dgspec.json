@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademy\\CodeAcademy.csproj": {}
+    "C:\\Users\\admin\\Source\\Repos\\CALogin\\CodeAcademy\\CodeAcademy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademyBLL\\CodeAcademyBLL.csproj": {
+    "C:\\Users\\admin\\Source\\Repos\\CALogin\\CodeAcademyBLL\\CodeAcademyBLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademyBLL\\CodeAcademyBLL.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Source\\Repos\\CALogin\\CodeAcademyBLL\\CodeAcademyBLL.csproj",
         "projectName": "CodeAcademyBLL",
-        "projectPath": "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademyBLL\\CodeAcademyBLL.csproj",
-        "packagesPath": "C:\\Users\\Training\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademyBLL\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Source\\Repos\\CALogin\\CodeAcademyBLL\\CodeAcademyBLL.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Source\\Repos\\CALogin\\CodeAcademyBLL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Training\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademyDAL\\CodeAcademyDAL.csproj": {
-                "projectPath": "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademyDAL\\CodeAcademyDAL.csproj"
+              "C:\\Users\\admin\\Source\\Repos\\CALogin\\CodeAcademyDAL\\CodeAcademyDAL.csproj": {
+                "projectPath": "C:\\Users\\admin\\Source\\Repos\\CALogin\\CodeAcademyDAL\\CodeAcademyDAL.csproj"
               }
             }
           }
@@ -59,21 +64,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademyDAL\\CodeAcademyDAL.csproj": {
+    "C:\\Users\\admin\\Source\\Repos\\CALogin\\CodeAcademyDAL\\CodeAcademyDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademyDAL\\CodeAcademyDAL.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Source\\Repos\\CALogin\\CodeAcademyDAL\\CodeAcademyDAL.csproj",
         "projectName": "CodeAcademyDAL",
-        "projectPath": "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademyDAL\\CodeAcademyDAL.csproj",
-        "packagesPath": "C:\\Users\\Training\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademyDAL\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Source\\Repos\\CALogin\\CodeAcademyDAL\\CodeAcademyDAL.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\source\\repos\\CALogin\\CodeAcademyDAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Training\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,6 +90,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -124,21 +134,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademy\\CodeAcademy.csproj": {
+    "C:\\Users\\admin\\Source\\Repos\\CALogin\\CodeAcademy\\CodeAcademy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademy\\CodeAcademy.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Source\\Repos\\CALogin\\CodeAcademy\\CodeAcademy.csproj",
         "projectName": "CodeAcademy",
-        "projectPath": "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademy\\CodeAcademy.csproj",
-        "packagesPath": "C:\\Users\\Training\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademy\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Source\\Repos\\CALogin\\CodeAcademy\\CodeAcademy.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Source\\Repos\\CALogin\\CodeAcademy\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Training\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -146,14 +160,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademyBLL\\CodeAcademyBLL.csproj": {
-                "projectPath": "C:\\Users\\Training\\Source\\Repos\\CodeAcProject\\CodeAcademyBLL\\CodeAcademyBLL.csproj"
+              "C:\\Users\\admin\\Source\\Repos\\CALogin\\CodeAcademyBLL\\CodeAcademyBLL.csproj": {
+                "projectPath": "C:\\Users\\admin\\Source\\Repos\\CALogin\\CodeAcademyBLL\\CodeAcademyBLL.csproj"
               }
             }
           }
@@ -198,7 +213,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

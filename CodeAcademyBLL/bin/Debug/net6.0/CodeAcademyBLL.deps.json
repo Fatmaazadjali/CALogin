@@ -14,7 +14,6 @@
           "CodeAcademyBLL.dll": {}
         }
       },
-<<<<<<< HEAD
       "Microsoft.AspNetCore.Cryptography.Internal/6.0.0": {
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
@@ -46,8 +45,6 @@
           }
         }
       },
-=======
->>>>>>> 2cec68abd8d6a0ddab75894e94016e51f52cf2f9
       "Microsoft.CSharp/4.5.0": {},
       "Microsoft.Data.SqlClient/2.1.4": {
         "dependencies": {
@@ -214,7 +211,6 @@
           }
         }
       },
-<<<<<<< HEAD
       "Microsoft.Extensions.Identity.Core/6.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Cryptography.KeyDerivation": "6.0.0",
@@ -241,8 +237,6 @@
           }
         }
       },
-=======
->>>>>>> 2cec68abd8d6a0ddab75894e94016e51f52cf2f9
       "Microsoft.Extensions.Logging/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
@@ -521,10 +515,7 @@
       },
       "CodeAcademyDAL/1.0.0": {
         "dependencies": {
-<<<<<<< HEAD
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.0",
-=======
->>>>>>> 2cec68abd8d6a0ddab75894e94016e51f52cf2f9
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
         },
         "runtime": {
@@ -539,7 +530,6 @@
       "serviceable": false,
       "sha512": ""
     },
-<<<<<<< HEAD
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -561,8 +551,6 @@
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/6.0.0",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.6.0.0.nupkg.sha512"
     },
-=======
->>>>>>> 2cec68abd8d6a0ddab75894e94016e51f52cf2f9
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
       "serviceable": true,
@@ -654,7 +642,6 @@
       "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
     },
-<<<<<<< HEAD
     "Microsoft.Extensions.Identity.Core/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -669,8 +656,6 @@
       "path": "microsoft.extensions.identity.stores/6.0.0",
       "hashPath": "microsoft.extensions.identity.stores.6.0.0.nupkg.sha512"
     },
-=======
->>>>>>> 2cec68abd8d6a0ddab75894e94016e51f52cf2f9
     "Microsoft.Extensions.Logging/6.0.0": {
       "type": "package",
       "serviceable": true,
